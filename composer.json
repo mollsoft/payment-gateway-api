@@ -1,0 +1,30 @@
+{
+    "name": "mollsoft/payment-gateway-api",
+    "description": "PHP SDK module for working with the Payment Gateway API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mollsoft\\PaymentGatewayAPI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mollsoft",
+            "email": "info@mollsoft.com"
+        }
+    ],
+    "keywords": [
+        "payment",
+        "gateway",
+        "api",
+        "sdk"
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "ext-decimal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
