@@ -16,4 +16,14 @@ class CurrencyItem
     {
         return new self($data['name'], $data['title'], $data['symbol'], $data['decimals']);
     }
+
+    public function toArray(): array
+    {
+        return [
+            'name' => $this->name,
+            'title' => $this->title,
+            'symbol' => $this->symbol,
+            'decimals' => $this->decimals,
+        ];
+    }
 }
